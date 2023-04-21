@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# react files
+client/node_modules/
 # C extensions
 *.so
 
@@ -123,7 +125,7 @@ celerybeat.pid
 .env
 .venv
 env/
-venv/
+server/venv/
 ENV/
 env.bak/
 venv.bak/
@@ -157,4 +159,4 @@ cython_debug/
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
+.idea/
